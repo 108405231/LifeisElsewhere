@@ -3,6 +3,21 @@
 
 <head>
     <style>
+        .desktop-layout {
+    position: relative;
+    width: 1440px;
+    background-color: #ffffff;
+}
+
+@media(max-width: 768px){
+    .desktop-layout{
+        position: relative;
+        width: 390px;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
         .header {
             position: relative;
             width: 1440px;
@@ -172,6 +187,7 @@
 </head>
 
 <body>
+<div class="desktop-layout">
     <header class="header">
 
         <a href="./index.html" style="text-decoration:none;color:#262626;"
@@ -199,8 +215,8 @@
             <div class="textheader textheader-about">關於我們</div>
         </a>
         <div class="headerline"></div>
-
     </header>
+    </div>
 </body>
 </html>
 
@@ -283,7 +299,7 @@
 <html>
 <footer>
     <style>
-        * {
+        /** {
             margin: 0;
             padding: 0;
         }
@@ -291,7 +307,23 @@
         html,
         body {
             height: 100%;
-        }
+        }*/
+        
+          .desktop-layout {
+    position: relative;
+    width: 1440px;
+    background-color: #ffffff;
+}
+
+@media(max-width: 768px){
+    .desktop-layout{
+        position: relative;
+        width: 390px;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
         .footer {
             position: relative;
@@ -537,7 +569,7 @@
 </footer>
 
 <body>
-
+<div class="desktop-layout">
     <div class="footer">
 
 
@@ -562,7 +594,8 @@
             <div class="textfooter textfooter-about">關於我們</div></a>
             <div class="textfooter textfooter-copy">Copyright © 2023 生活在他方</div>
             <div class="footerline"></div>
-
+    </div>
+    </div>
 
 </body>
 
